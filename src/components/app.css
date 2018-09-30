@@ -1,0 +1,163 @@
+.card{
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    margin-top: 300px;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0 1px 9px -1px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0 1px 9px -1px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0 1px 9px -1px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.header{
+    background-color: rgba(123, 159, 203, 1);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.content_box{
+    padding: 20px;
+    background-color: rgba(251, 251, 251, 1);
+}
+.row{
+    width: 90%;
+    display: inline-block;
+}
+.grid_top{
+    width: 100%;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 8% 20% 27% 15% 15% 15%;
+    /* grid-template-columns: 50px 170px 200px 150px 130px 180px; */
+}
+.grid_div{
+    padding: 5px 5px 5px 10px;
+    border: white 1px solid;
+}
+.grid_comment{
+    padding: 5px 5px 5px 10px;
+    border: white 1px solid;
+    font-style: italic;
+    color: darkgrey;
+}
+.grid_num{
+    padding: 5px 10px 5px 5px;
+    border: white 1px solid;
+    text-align: right;
+    white-space: pre;
+}
+.row_component{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8% 20% 27% 15% 15% 15%;
+    background-color: rgba(230, 230, 230, 1);
+}
+.row_component:nth-child(even){
+    background-color: rgba(240, 240, 240, 1);
+}
+.grid_body{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8% 20% 27% 15% 15% 15%;
+    background-color: rgba(230, 230, 230, 1);
+}
+.grid_body:nth-child(even){
+    background-color: rgba(240, 240, 240, 1);
+}
+.add_product{
+    text-align: center;
+    background-color: rgba(123, 159, 203, 1);
+    display: inline-block;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.add_product:hover{
+    transform: scale(1.1);
+    background-color: rgb(154, 191, 237);
+    -webkit-box-shadow: 0 1px 9px -1px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0 1px 9px -1px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0 1px 9px -1px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.cross_wrapper{
+    display: inline-block;
+    border-radius: 4px;
+    margin-left: 1%;
+    width: 9%;
+    border: none;
+    height: 20px;
+    cursor: pointer;
+    background-color: rgb(219, 50, 50);
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.cross_wrapper:hover{
+    transform: scale(1.1);
+    background-color: rgb(234, 75, 75);
+}
+#btn_wrapper{
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#total_wrapper{
+    text-align: right;
+}
+#total_grid{
+    display: inline-block;
+    width: 55%;
+    text-align: left;
+}
+.total_grid_top{
+    width: 100%;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.total_grid_body{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(230, 230, 230, 1);
+}
+.total_grid_body:nth-child(even){
+    background-color: rgba(240, 240, 240, 1);
+}
+.btn_order_wrapper{
+    text-align: center;
+    padding-top: 20px;
+}
+.order_button{
+    width: 30%;
+    background-color: rgba(123, 159, 203, 1);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.order_button:hover{
+    transform: scale(1.1);
+    background-color: rgb(154, 191, 237);
+    -webkit-box-shadow: 0 1px 9px -1px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0 1px 9px -1px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0 1px 9px -1px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.background{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}

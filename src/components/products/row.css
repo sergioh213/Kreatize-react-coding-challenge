@@ -1,0 +1,48 @@
+.row{
+    width: 90%;
+    display: inline-block;
+}
+.grid_div{
+    padding: 5px 5px 5px 10px;
+    border: white 1px solid;
+}
+.grid_comment{
+    padding: 5px 5px 5px 10px;
+    border: white 1px solid;
+    font-style: italic;
+    color: darkgrey;
+}
+.grid_num{
+    padding: 5px 10px 5px 5px;
+    border: white 1px solid;
+    text-align: right;
+    white-space: pre;
+}
+.grid_body{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8% 20% 27% 15% 15% 15%;
+    background-color: rgba(230, 230, 230, 1);
+}
+.grid_body:nth-child(even){
+    background-color: rgba(240, 240, 240, 1);
+}
+.cross_wrapper{
+    display: inline-block;
+    border-radius: 4px;
+    margin-left: 1%;
+    width: 9%;
+    border: none;
+    height: 20px;
+    cursor: pointer;
+    background-color: rgb(219, 50, 50);
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.cross_wrapper:hover{
+    transform: scale(1.1);
+    background-color: rgb(234, 75, 75);
+}
